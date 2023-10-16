@@ -12,4 +12,5 @@ public interface PostService {
 
     PostDto updatePost (PostDto post, long id);
 
+    void deletePostById (long id);
 }
