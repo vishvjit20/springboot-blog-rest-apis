@@ -11,4 +11,6 @@ public interface CommentService {
 
     CommentDto getCommentById (Long postId, Long commentId);
 
+    CommentDto updateCommentById (Long postId, Long commentId, CommentDto commentRequest);
+
 }
